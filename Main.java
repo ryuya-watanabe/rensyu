@@ -7,6 +7,11 @@ public class Main {
 		double tai = scanner.nextDouble();
 		double BMI = tai / (sin * sin);
 		System.out.println(BMI);
+		sin = scanner.nextDouble();
+                tai = scanner.nextDouble();
+                BMI = tai / (sin * sin);
+                System.out.println(BMI);
+
 	}
 }
 
